@@ -59,10 +59,23 @@ header {
   position: relative;
 }
 
-.rows-2 div {
+.rows-2{
+  padding: 50px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.icons {
+  color:rgb(116, 88, 88);
+  width: 8em;
+  text-align: center;
+  
+}
+.icons i{
+  padding-top:0.2em;
 }
 
 .modal-body {
