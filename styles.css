@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.color-change {
+  color: #AA54FA;
+}
+
+header {
+  background-color: #AA54FA;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: black;
+}
+
+.skill {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.project-icon {
+  color: #AA54FA;
+}
+
+
+.timeline-main-container {
+  border-left: 5px solid #AA54FA;
+  margin-left: 50px;
+}
+
+.xyz::before {
+  content: "";
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: #AA54FA;
+  position: absolute;
+  left: -63px;
+}
+
+.xyz {
+  margin-left: 50px;
+  position: relative;
+}
+
+.rows-2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-content: center;
+}
+
+.certification {
+  padding-top: 10px;
+
+}
+
+.certification img {
+  width: 28em;
+}
+
+.modal-dialog {
+
+  position: relative;
+  right: 520px;
+  bottom: 25px;
+}
+
+footer {
+  background-color: #AA54FA;
+  height: 15em;
+}
